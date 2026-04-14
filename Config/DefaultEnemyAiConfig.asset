@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c47be756046c9aa0c441fd93825b5, type: 3}
+  m_Name: DefaultEnemyAiConfig
+  m_EditorClassIdentifier: 
+  detectionRadius: 20
+  fieldOfView: 360
+  memoryDuration: 5
+  eyeHeight: 1
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 51
+  bossDetectionMultiplier: 1.5
+  patrolEnabled: 1
+  patrolRadius: 5
+  patrolPointCount: 4
+  patrolWaitTime: 1.2
+  patrolSpeedMultiplier: 1
+  chaseSpeedMultiplier: 1.2
+  rangedKitingEnabled: 0
+  forceRanged: 0
+  preferredKitingDistance: 6
+  kiteSpeedMultiplier: 1

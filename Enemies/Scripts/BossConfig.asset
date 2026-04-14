@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44d4153df0ecc84280e34551e97bcd0, type: 3}
+  m_Name: BossConfig
+  m_EditorClassIdentifier: 
+  bossPrefab: {fileID: 3610663249306263893, guid: 003b1de2312fbaa44931a4e3e835826e, type: 3}
+  usePooling: 0
+  initialPoolSize: 3
+  spawnCooldown: 10
+  preSpawnDelay: 0
+  maxSimultaneous: 3
+  displayName: Boss
+  icon: {fileID: 0}
+  regularEnemyPrefab: {fileID: 946629479652030133, guid: c4b8201ce0a74b84b8ca699430b4b63c, type: 3}
+  regularEnemyCount: 3
