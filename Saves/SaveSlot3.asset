@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d986eb73333162429d811feb401eb16, type: 3}
+  m_Name: SaveSlot3
+  m_EditorClassIdentifier: 
+  saveFileName: SaveSlot3
+  saveFileExists: 0
+  playerClassIndex: 0
+  level: 0
+  xp: 0
+  souls: 0
+  gold: 0
+  skillTree:
+    list: 
+  actionBar:
+    list: 
+  inventoryItems:
+    list: []
+  armoryEquipment:
+    list: []
+  equippedSlotsEquipment:
+    list: []
