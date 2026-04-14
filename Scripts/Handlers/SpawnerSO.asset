@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f41606b8f71b1c24a9e52e692b4e1103, type: 3}
+  m_Name: SpawnerSO
+  m_EditorClassIdentifier: 
+  wavesComposition: []
+  waveSpawnTimer: 0
+  waveCheck: 1
+  spawnerNests:
+  - {fileID: 0}
+  enemiesSpawnedHolder: {fileID: 0}
+  enemyCount: 0
+  spawnFlag: 1
+  configureSpawnedAnimationHandler: 1
+  spawnedMoveXParameter: MoveX
+  spawnedMoveYParameter: MoveY
+  spawnedSpeedParameter: Speed
+  spawnedDampTime: 0.08
+  overrideSpawnedParameterNames: 0

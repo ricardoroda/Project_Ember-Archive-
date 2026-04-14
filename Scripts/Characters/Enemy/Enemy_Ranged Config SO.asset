@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601d051ca0fcb374e806afff7541fbc7, type: 3}
+  m_Name: Enemy_Ranged Config SO
+  m_EditorClassIdentifier: 
+  isBoss: 0
+  moveSpeed: 3.5
+  acceleration: 8
+  stoppingDistance: 2
+  health: 25
+  armor: 0
+  armorRegenRate: 0
+  armorRegenDelay: 2
+  armorThreshold: 0
+  sightRange: 1000
+  attackRange: 10
+  weaponDamage: 0000000000000000000000000000000000000000
+  weaponActionSpeed: 1
+  fireDamageMultiplier: 0
+  waterDamageMultiplier: 0
+  airDamageMultiplier: 0
+  earthDamageMultiplier: 0
+  arcaneDamageMultiplier: 0
+  fireDamageFlat: 0
+  waterDamageFlat: 0
+  airDamageFlat: 0
+  earthDamageFlat: 0
+  arcaneDamageFlat: 0
+  ailmentMultiplier: 1
+  damageReceivedMultiplier: 1
+  critChance: 0
+  critMultiplier: 0
+  actionSpeed: 2
+  cooldownReduction: 0
+  abilityDuration: 0
+  projectileIncrease: 0
+  projectilePenetration: 0
+  aoeIncrease: 0
+  xpReward: 5
+  goldReward: 10
+  soulReward: 2

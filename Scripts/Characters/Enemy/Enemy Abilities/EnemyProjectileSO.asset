@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6737210741ee27c43923df3201c51daf, type: 3}
+  m_Name: EnemyProjectileSO
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: 0}
+  userClass: 0
+  flatDamageMultiplier: 1
+  baseFireDamage: 5
+  baseWaterDamage: 0
+  baseAirDamage: 0
+  baseEarthDamage: 0
+  baseArcaneDamage: 0
+  abilityDamage:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  weaponBasedDamageFlag: 0
+  weaponBaseDamage: 0
+  baseAilmentMultiplier:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  baseCritChance: 0
+  fireRate: 2
+  weaponBasedActionSpeedFlag: 0
+  weaponBaseAttackSpeed: 0
+  cooldownFlag: 0
+  cooldown: 0
+  lifeTime: 3
+  targetTags: Player
+  numberOfProjectiles: 1
+  spreadBetweenProjectiles: 0
+  burst: 1
+  distanceBetweenBurst: 0
+  baseSpeed: 10
+  homming: 0
+  hommingRadius: 5
+  hommingTurnRate: 0
+  returning: 0
+  returningTime: 0

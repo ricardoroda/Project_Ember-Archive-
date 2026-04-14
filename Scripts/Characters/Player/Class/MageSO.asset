@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a47e4c30e62279448895534a98c5093, type: 3}
+  m_Name: MageSO
+  m_EditorClassIdentifier: 
+  playerClass: 0
+  strength: 1
+  dexterity: 3
+  intelligence: 5
+  vitality: 2
+  maxHealth: 50
+  maxMana: 150
+  armorThreshold: 1
+  manaRegen: 5
+  baseMoveSpeed: 5
+  levelUPStr: 1
+  levelUPDex: 2
+  levelUPInt: 4
+  levelUPVit: 2
+  levelUPMaxHP: 10
+  levelUPMaxMana: 15
+  levelUPArmorThreshold: 0.5
+  levelUPManaRegen: 0.5
+  classAbilities:
+  - {fileID: 8279042596946528661, guid: 47411fae904a9304da94121775de3a48, type: 3}
+  - {fileID: 1947871717301538, guid: 3ea446f1212f2644699e813fe6553809, type: 3}
+  - {fileID: 8378648546881499446, guid: 8409f0dc13743ec4397dd449aeb8d1ef, type: 3}
+  - {fileID: 7957833072274404953, guid: 3e6071dd791152c49aed1747d5183052, type: 3}
+  - {fileID: 584207449403360073, guid: c6dda59e8a81da74c922d104c41b9349, type: 3}
+  - {fileID: 1000011128802252, guid: 566cdf2dc0450db4c98a48d7d5912670, type: 3}

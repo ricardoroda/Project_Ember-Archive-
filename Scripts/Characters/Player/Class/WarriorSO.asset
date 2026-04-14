@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a47e4c30e62279448895534a98c5093, type: 3}
+  m_Name: WarriorSO
+  m_EditorClassIdentifier: 
+  playerClass: 0
+  strength: 0
+  dexterity: 0
+  intelligence: 0
+  vitality: 0
+  maxHealth: 0
+  maxMana: 0
+  armorThreshold: 0
+  manaRegen: 0
+  baseMoveSpeed: 0
+  levelUPStr: 0
+  levelUPDex: 0
+  levelUPInt: 0
+  levelUPVit: 0
+  levelUPMaxHP: 0
+  levelUPMaxMana: 0
+  levelUPArmorThreshold: 0
+  levelUPManaRegen: 0
+  classAbilities: []
