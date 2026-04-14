@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6737210741ee27c43923df3201c51daf, type: 3}
+  m_Name: OrbOfStormsSO
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: -1132494116, guid: b1bb7bad0553cf84a90126c927e0977a, type: 3}
+  userClass: 0
+  skillName: Orb OfStorms
+  isTriggerred: 0
+  description: 
+  skillType: 0
+  manaCost: 50
+  flatDamageMultiplier: 1
+  baseFireDamage: 0
+  baseWaterDamage: 0
+  baseAirDamage: 15
+  baseEarthDamage: 0
+  baseArcaneDamage: 0
+  abilityDamage:
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  weaponBasedDamageFlag: 1
+  weaponTypesUsable: 0400000006000000070000000c0000000d000000
+  weaponBaseDamage: 0.2
+  baseAilmentMultiplier:
+  - 50
+  - 100
+  - 100
+  - 25
+  - 20
+  baseCritChance: 15
+  fireRate: 0
+  weaponBasedActionSpeedFlag: 0
+  weaponBaseAttackSpeed: 0
+  cooldownFlag: 1
+  cooldown: 4
+  lifeTime: 5
+  targetTags: 
+  numberOfProjectiles: 1
+  spreadBetweenProjectiles: 0
+  burst: 1
+  distanceBetweenBurst: 0
+  baseSpeed: 2
+  penetrate: 1
+  homming: 0
+  hommingRadius: 5
+  hommingTurnRate: 0
+  returning: 0
+  returningTime: 0
+  projectileScaleIncrease: 1.5

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6f3df63576f6442b2ad47519198909, type: 3}
+  m_Name: FireStormSO
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: 21300000, guid: 0d852f5493cecf94a90183f3f83ce947, type: 3}
+  userClass: 0
+  skillName: Fire Storm
+  isTriggerred: 0
+  description: 
+  skillType: 0
+  manaCost: 30
+  flatDamageMultiplier: 1
+  baseFireDamage: 10
+  baseWaterDamage: 0
+  baseAirDamage: 0
+  baseEarthDamage: 0
+  baseArcaneDamage: 0
+  abilityDamage:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  weaponBasedDamageFlag: 0
+  weaponTypesUsable: 
+  weaponBaseDamage: 0
+  baseAilmentMultiplier:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  baseCritChance: 0
+  fireRate: 0
+  weaponBasedActionSpeedFlag: 0
+  weaponBaseAttackSpeed: 0
+  cooldownFlag: 1
+  cooldown: 8
+  lifeTime: 6
+  targetTags: Enemy
+  self: 0
+  delayedAOE: 0
+  delayTime: 0
+  radius: 5
+  startingRadiusRelative: 1
+  tickTime: 0.2
+  triggeredAttach: 0

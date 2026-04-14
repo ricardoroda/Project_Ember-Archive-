@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6f3df63576f6442b2ad47519198909, type: 3}
+  m_Name: AoePersistentSO
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: 0}
+  abilityPrefab: {fileID: 0}
+  userClass: 0
+  baseFireDamage: 2
+  baseWaterDamage: 0
+  baseAirDamage: 0
+  baseEarthDamage: 0
+  baseArcaneDamage: 0
+  weaponBasedDamageFlag: 0
+  weaponBaseDamage: 0
+  baseAilmentChance: 0
+  baseAilmentMultiplier: 0
+  baseCritChance: 0
+  fireRate: 0
+  weaponBasedActionSpeedFlag: 0
+  weaponBaseAttackSpeed: 0
+  cooldownFlag: 1
+  cooldown: 6
+  lifeTime: 5
+  targetTags: Enemy
+  delayedAOE: 0
+  delayTime: 0
+  radius: 5
+  startingRadiusRelative: 1
+  tickTime: 0.2

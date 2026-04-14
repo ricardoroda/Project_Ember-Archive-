@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6f3df63576f6442b2ad47519198909, type: 3}
+  m_Name: OrbOfStormsExplosionSO
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: 0}
+  userClass: 0
+  skillName: Orb Of Storms Explosion
+  isTriggerred: 1
+  description: 
+  skillType: 0
+  flatDamageMultiplier: 1
+  baseFireDamage: 0
+  baseWaterDamage: 0
+  baseAirDamage: 5
+  baseEarthDamage: 0
+  baseArcaneDamage: 0
+  abilityDamage:
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  weaponBasedDamageFlag: 0
+  weaponTypesUsable: 
+  weaponBaseDamage: 0
+  baseAilmentMultiplier:
+  - 50
+  - 100
+  - 100
+  - 25
+  - 20
+  baseCritChance: 0
+  fireRate: 0
+  weaponBasedActionSpeedFlag: 0
+  weaponBaseAttackSpeed: 0
+  cooldownFlag: 0
+  cooldown: 0
+  lifeTime: 10
+  targetTags: 
+  self: 0
+  delayedAOE: 0
+  delayTime: 0
+  radius: 2
+  startingRadiusRelative: 1
+  tickTime: 1
+  triggeredAttach: 1

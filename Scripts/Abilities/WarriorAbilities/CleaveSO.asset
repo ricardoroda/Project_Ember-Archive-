@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1acd3372dc57ae34993e75c81ceaa447, type: 3}
+  m_Name: CleaveSO
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: 0}
+  userClass: 1
+  skillName: Cleave
+  isTriggerred: 0
+  description: 
+  skillType: 0
+  flatDamageMultiplier: 1
+  baseFireDamage: 0
+  baseWaterDamage: 0
+  baseAirDamage: 0
+  baseEarthDamage: 10
+  baseArcaneDamage: 0
+  abilityDamage:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  weaponBasedDamageFlag: 0
+  weaponTypesUsable: 
+  weaponBaseDamage: 0
+  baseAilmentMultiplier:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  baseCritChance: 0
+  fireRate: 3
+  weaponBasedActionSpeedFlag: 0
+  weaponBaseAttackSpeed: 0
+  cooldownFlag: 0
+  cooldown: 0
+  lifeTime: 0.4
+  targetTags: 
+  centerSelf: 1
+  reachMultiplier: 0
+  projectSpeed: 0
+  meleeScaleIncrease: 4
+  currentComboChain: 1
+  maxComboChain: 1
+  comboSizeScale: 0
+  multipleAttacks: 1
+  multipleAttacksSpread: 0

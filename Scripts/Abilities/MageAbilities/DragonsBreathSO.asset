@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1acd3372dc57ae34993e75c81ceaa447, type: 3}
+  m_Name: DragonsBreathSO
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: 21300000, guid: 9725fb87facc42a4984598500f76e0fb, type: 3}
+  userClass: 0
+  skillName: Dragons Breath
+  isTriggerred: 0
+  description: Unleash a blazing cone of fire, scorching enemies and leaving them
+    burning over time
+  skillType: 0
+  manaCost: 2
+  flatDamageMultiplier: 0.2
+  baseFireDamage: 2
+  baseWaterDamage: 0
+  baseAirDamage: 0
+  baseEarthDamage: 0
+  baseArcaneDamage: 0
+  abilityDamage:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  weaponBasedDamageFlag: 0
+  weaponTypesUsable: 
+  weaponBaseDamage: 0
+  baseAilmentMultiplier:
+  - 100
+  - 50
+  - 100
+  - 25
+  - 10
+  baseCritChance: 5
+  fireRate: 20
+  weaponBasedActionSpeedFlag: 0
+  weaponBaseAttackSpeed: 0
+  cooldownFlag: 0
+  cooldown: 0
+  lifeTime: 0.5
+  targetTags: 
+  centerSelf: 0
+  reachMultiplier: 0
+  projectSpeed: 15
+  meleeScaleIncrease: 1.5
+  currentComboChain: 1
+  maxComboChain: 1
+  comboSizeScale: 0
+  multipleAttacks: 1
+  multipleAttacksSpread: 0
