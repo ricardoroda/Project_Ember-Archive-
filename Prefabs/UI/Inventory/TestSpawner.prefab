@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8828655984336768628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7350041762972672133}
+  - component: {fileID: 6442783602636295802}
+  m_Layer: 0
+  m_Name: TestSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7350041762972672133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8828655984336768628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -899.99493, y: 27.991577, z: -22.214386}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6442783602636295802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8828655984336768628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9ada1ff640cb74ab34afaac49962c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsToSpawn:
+  - item: {fileID: 11400000, guid: 48d69e993a306774f9c4490f64699d25, type: 2}
+    amount: 1200
+  equipmentsToSpawn:
+  - {fileID: 11400000, guid: 3cec36a6424ac9549a0fcbb3cf454121, type: 2}
+  - {fileID: 11400000, guid: af173d045aefb2e46923942017900069, type: 2}
+  - {fileID: 11400000, guid: 4e5a9281124c0f74eb30e3055b77a86f, type: 2}
+  - {fileID: 11400000, guid: af173d045aefb2e46923942017900069, type: 2}
+  - {fileID: 11400000, guid: ba0d551168da79e44979783834bd6543, type: 2}
+  - {fileID: 11400000, guid: a898aaa8169ae734dafd38f0e268c930, type: 2}
+  - {fileID: 11400000, guid: 3cec36a6424ac9549a0fcbb3cf454121, type: 2}
+  inventoryManager: {fileID: 0}
+  armoryManager: {fileID: 0}
